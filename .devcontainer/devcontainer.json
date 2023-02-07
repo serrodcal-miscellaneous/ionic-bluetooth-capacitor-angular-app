@@ -1,0 +1,30 @@
+{
+	"name": "Ionic App",
+
+	"image": "serrodcal/ionic:14.20",
+
+	// "features": {},
+
+	// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			"settings": {
+				"terminal.integrated.fontFamily": "monospace"
+			},
+			"extensions": [
+				"angular.ng-template",
+				"ms-vscode.vscode-typescript-next"
+			]
+		}
+	}
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "java -version",
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}

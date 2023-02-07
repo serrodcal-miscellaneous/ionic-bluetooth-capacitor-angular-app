@@ -1,0 +1,7 @@
+{
+  "name": "remove",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
